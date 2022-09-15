@@ -72,6 +72,14 @@ services:
     networks:
       bifrost:
         ipv4_address: "10.1.1.10"
+  surrealdb:
+    image: surrealdb/surrealdb
+    ports:
+      - 4000:8000
+    command: start
+    networks:
+      bifrost:
+        ipv4_address: "10.1.1.7"
 networks:
   bifrost:
     ipam:
