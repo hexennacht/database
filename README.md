@@ -9,6 +9,6 @@ Docker Compose config that I usualy use when working on pet project
 * MySQL 5.7
 * Postgres
 * Mongo DB
-* Elastic Search
+* Elastic Search (Must have user and password)
 * Redis
 * Adminer
